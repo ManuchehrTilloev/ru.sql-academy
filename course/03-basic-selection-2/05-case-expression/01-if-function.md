@@ -402,7 +402,7 @@ COALESCE(значение1, значение2, значение3)
     SELECT COALESCE('SQL Academy', 'Альтернатива SQL Academy') AS sql_trainer;
     ```
 
-    | coalesce    |
+    | sql_trainer |
     | ----------- |
     | SQL Academy |
 
@@ -426,7 +426,7 @@ COALESCE(значение1, значение2, значение3)
     SELECT COALESCE(NULL, 'Альтернатива SQL Academy') AS sql_trainer;
     ```
 
-    | coalesce                 |
+    | sql_trainer              |
     | ------------------------ |
     | Альтернатива SQL Academy |
 
@@ -436,7 +436,7 @@ COALESCE(значение1, значение2, значение3)
     SELECT COALESCE(NULL, NULL, 'SQL Academy', 'Запасной вариант') AS sql_trainer;
     ```
 
-    | coalesce    |
+    | sql_trainer |
     | ----------- |
     | SQL Academy |
 
@@ -475,9 +475,9 @@ NULLIF(значение_1, значение_2);
     SELECT NULLIF('SQL Academy', 'SQL Academy') AS sql_trainer;
     ```
 
-    | nullif |
-    | ------ |
-    | null   |
+    | sql_trainer |
+    | ----------- |
+    | null        |
 
 **MySQL**
 
@@ -499,7 +499,7 @@ NULLIF(значение_1, значение_2);
     SELECT NULLIF('SQL Academy', 'Альтернатива SQL Academy') AS sql_trainer;
     ```
 
-    | nullif      |
+    | sql_trainer |
     | ----------- |
     | SQL Academy |
 
