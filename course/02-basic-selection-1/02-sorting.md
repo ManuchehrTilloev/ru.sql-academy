@@ -31,6 +31,8 @@ ORDER BY столбец_1 [ASC | DESC][, столбец_n [ASC | DESC]]
 SELECT name FROM Company ORDER BY name;
 ```
 
+**MySQL**
+
 | name       |
 | ---------- |
 | Aeroflot   |
@@ -38,6 +40,16 @@ SELECT name FROM Company ORDER BY name;
 | British_AW |
 | Dale_avia  |
 | Don_avia   |
+
+**PostgreSQL**
+
+| name       |
+| ---------- |
+| Aeroflot   |
+| British_AW |
+| Dale_avia  |
+| Don_avia   |
+| air_France |
 
 ## Сортировка по возрастанию и убыванию для основных типов
 
